@@ -1,0 +1,13 @@
+jvm.args=-Xms2048m -Xmx2048m -Xmn800m -XX\:MaxMetaspaceSize\=300m -XX\:MetaspaceSize\=128m -XX:MaxDirectMemorySize=1024m
+
+spring.profiles.active=prod
+
+caller.country=HK
+caller.language=ZH_HK
+
+mongo.sms.replicaset=10.209.65.87:9102
+mongo.sms.replicaset.tag.name=location
+mongo.sms.replicaset.tag.value=Hongkong_hkbn
+mongo.sms.db=sms
+mongo.sms.username=lesports
+mongo.sms.password=lesports

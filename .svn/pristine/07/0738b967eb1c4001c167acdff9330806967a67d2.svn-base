@@ -1,0 +1,16 @@
+swiftq.connection.url=@swiftq.connection.url@
+swiftq.exchange.name=@swiftq.exchange.name@
+swiftq.routingkey.name=@swiftq.routingkey.name@
+swiftq.connection.url.qmt.cn=@swiftq.connection.url.qmt.cn@
+swiftq.connection.url.qmt.hk=@swiftq.connection.url.qmt.hk@
+swiftq.connection.url.qmt.us=@swiftq.connection.url.qmt.us@
+swiftq.message.center.url=@swiftq.message.center.url@
+cloud.swiftq.connection.url=@cloud.swiftq.connection.url@
+
+sms.swiftq.connection.url=@sms.swiftq.connection.url@
+sms.swiftq.connection.addr=@sms.swiftq.connection.addr@
+mms.swiftq.connection.transcode.url=@mms.swiftq.connection.transcode.url@
+mms.swiftq.connection.transcode.queue=@mms.swiftq.connection.transcode.queue@
+swiftq.queue.lesports.qmt.mms=@swiftq.queue.lesports.qmt.mms@
+
+cdn.cache.clean.url=@cdn.cache.clean.url@

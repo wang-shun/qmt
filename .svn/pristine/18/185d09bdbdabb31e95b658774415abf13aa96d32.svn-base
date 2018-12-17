@@ -1,0 +1,4 @@
+jvm.args=-Xms1024m -Xmx1024m -Xmn400m -XX\:MaxPermSize\=300m -XX\:PermSize\=128m
+
+caller.language=ZH_CN
+caller.country=CN

@@ -1,0 +1,6 @@
+mongo.cms.replicaset=${mongo.cms.replicaset}
+mongo.cms.replicaset.tag.name=${mongo.cms.replicaset.tag.name}
+mongo.cms.replicaset.tag.value=${mongo.cms.replicaset.tag.value}
+mongo.cms.db=${mongo.cms.db}
+mongo.cms.username=${mongo.cms.username}
+mongo.cms.password=${mongo.cms.password}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.letv.live:urus-tool:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/letv/live/urus-tool/0.0.1-SNAPSHOT/urus-tool-0.0.1-20170316.023701-21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/letv/live/urus-tool/0.0.1-SNAPSHOT/urus-tool-0.0.1-20170316.023701-21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/letv/live/urus-tool/0.0.1-SNAPSHOT/urus-tool-0.0.1-20170316.023701-21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

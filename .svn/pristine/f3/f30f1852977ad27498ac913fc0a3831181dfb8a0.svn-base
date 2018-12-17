@@ -1,0 +1,12 @@
+#default caller info
+caller.country=${caller.country}
+caller.language=${caller.language}
+
+le.cas.url.prefix=${le.cas.url.prefix}
+le.cas.username=${le.cas.username}
+le.cas.password=${le.cas.password}
+le.cas.sec.code=${le.cas.sec.code}
+le.cas.login.url=${le.cas.login.url}
+login.success.redirect.url=${login.success.redirect.url}
+
+

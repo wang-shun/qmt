@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-op-web-api</artifactId>
+    <packaging>jar</packaging>
+    <name>qmt-op-api-web</name>
+
+    <properties>
+        <environment.group></environment.group>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <environment.name>dev</environment.name>
+                <environment.type>dev</environment.type>
+            </properties>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <environment.name>test</environment.name>
+                <environment.type>test</environment.type>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <environment.name>prod</environment.name>
+                <environment.type>prod</environment.type>
+                <environment.group>cn</environment.group>
+            </properties>
+        </profile>
+        <profile>
+            <id>test-cn</id>
+            <properties>
+                <environment.name>test_cn</environment.name>
+                <environment.type>test</environment.type>
+                <environment.group>cn</environment.group>
+            </properties>
+        </profile>
+        <profile>
+            <id>test-cn1</id>
+            <properties>
+                <environment.name>test_cn1</environment.name>
+                <environment.type>test</environment.type>
+                <environment.group>cn1</environment.group>
+            </properties>
+        </profile>
+        <profile>
+            <id>staging</id>
+            <properties>
+                <environment.name>staging</environment.name>
+                <environment.type>staging</environment.type>
+            </properties>
+        </profile>
+        <profile>
+            <id>staging1</id>
+            <properties>
+                <environment.name>staging1</environment.name>
+                <environment.type>staging1</environment.type>
+            </properties>
+        </profile>
+        <profile>
+            <id>benchmark</id>
+            <properties>
+                <environment.name>prod</environment.name>
+                <environment.type>prod</environment.type>
+                <environment.group>cn</environment.group>
+            </properties>
+        </profile>
+        <profile>
+            <id>hongkong</id>
+            <properties>
+                <environment.name>hongkong</environment.name>
+                <environment.type>prod</environment.type>
+                <environment.group>hongkong</environment.group>
+            </properties>
+        </profile>
+        <profile>
+            <id>cn</id>
+            <properties>
+                <environment.name>cn</environment.name>
+                <environment.type>prod</environment.type>
+                <environment.group>cn</environment.group>
+            </properties>
+        </profile>
+        <profile>
+            <id>cn1</id>
+            <properties>
+                <environment.name>cn1</environment.name>
+                <environment.type>prod</environment.type>
+                <environment.group>cn1</environment.group>
+            </properties>
+        </profile>
+        <profile>
+            <id>cibn</id>
+            <properties>
+                <environment.name>cibn</environment.name>
+                <environment.type>prod</environment.type>
+                <environment.group>cibn</environment.group>
+            </properties>
+        </profile>
+    </profiles>
+
+    <build>
+        <finalName>${project.artifactId}-${environment.type}-${project.version}</finalName>
+        <filters>
+            <filter>src/main/filters/filter_zh_CN_${environment.type}.properties</filter>
+        </filters>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <filters>
+                        <filter>${project.basedir}/src/main/filters/filter_zh_CN_${environment.type}.properties</filter>
+                    </filters>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.lesports</groupId>
+                <artifactId>lesports-build-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+
+
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>lesports-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-op-web-api-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>lesports-jersey-spring-support</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

@@ -1,0 +1,14 @@
+server.port=9601
+#logging.config=logback.xml
+
+delete.cdn.cache.enable=@delete.cdn.cache.enable@
+#搜索创建索引的链接
+search.index.url=@search.index.url@
+hk.clean.cache.url=@hk.clean.cache.url@
+hk.clean.cache.enable=@hk.clean.cache.enable@
+add.cibn.recommend.tv.url=@add.cibn.recommend.tv.url@
+qmt.web.uri=@qmt.web.uri@
+
+logstash.destination1=@logstash.destination1@
+logstash.destination2=@logstash.destination2@
+

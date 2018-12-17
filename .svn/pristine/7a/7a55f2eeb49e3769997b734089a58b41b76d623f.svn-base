@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-web-apis</artifactId>
+    <packaging>pom</packaging>
+    <name>qmt-web-apis</name>
+    <description>Lesports Quan Mei Ti Web</description>
+
+
+    <modules>
+        <module>qmt-app-web-api</module>
+        <module>qmt-ipad-web-api</module>
+        <module>qmt-web-api</module>
+        <module>qmt-web-api-core</module>
+        <module>qmt-tv-web-api</module>
+        <module>qmt-play-web-api</module>
+        <module>qmt-realtime-web-api</module>
+        <module>qmt-op-web-api</module>
+        <module>qmt-op-web-api-core</module>
+        <module>qmt-share-web-core</module>
+    </modules>
+
+
+</project>

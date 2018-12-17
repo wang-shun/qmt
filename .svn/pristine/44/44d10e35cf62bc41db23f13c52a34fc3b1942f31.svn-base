@@ -1,0 +1,8 @@
+server.contextPath=/sbd/api/v2
+server.port=9450
+
+logstash.destination1=${logstash.destination1}
+logstash.destination2=${logstash.destination2}
+
+le.cas.redis.host=${le.cas.redis.host}
+le.cas.redis.port=${le.cas.redis.port}

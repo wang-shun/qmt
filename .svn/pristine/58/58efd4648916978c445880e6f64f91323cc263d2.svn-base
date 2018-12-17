@@ -1,0 +1,15 @@
+spring.profiles.active=${spring.profiles.active}
+
+
+#default caller info
+caller.country=${caller.country}
+caller.language=${caller.language}
+
+chat.room.url=${chat.room.url}
+live.room.single.url=${live.room.single.url}
+
+tele_group_info_url = ${tele_group_info_url}
+
+tv.suggest.delete.url=${tv.suggest.delete.url}
+
+search.index.url=${search.index.url}

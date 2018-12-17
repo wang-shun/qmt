@@ -1,0 +1,11 @@
+jvm.args=-Xms256m -Xmx1024m -Xmn128m -XX\:MaxPermSize\=300m -XX\:PermSize\=128m
+
+has.competitor.stats.cids=50001
+
+need.preview.cids=47001
+
+#µ•Œª√Î
+preview.time=300
+
+caller.language=ZH_CN
+caller.country=CN

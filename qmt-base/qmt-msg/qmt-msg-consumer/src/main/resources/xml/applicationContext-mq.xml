@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+    <bean id="configBean" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:application.properties</value>
+                <value>classpath:hedwig.properties</value>
+                <value>classpath:properties/application-swiftq.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--user消费者配置-->
+    <bean id="userSingleConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+        <property name="targetConnectionFactory" ref="userAmqConnectionFactory"/>
+    </bean>
+
+    <bean id="userAmqConnectionFactory" primary="true" name="userAmqConnectionFactory" class="org.apache.qpid.client.AMQConnectionFactory">
+        <constructor-arg index="0" value="${user.swiftq.connection.url}"/>
+    </bean>
+
+    <bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="userSingleConnectionFactory"/>
+        <property name="destination">
+            <bean class="org.apache.qpid.client.AMQAnyDestination">
+                <constructor-arg index="0" value="ADDR:{user.swiftq.queue}; {create: always}"/>
+            </bean>
+        </property>
+        <property name="messageListener">
+            <bean class="com.lesports.qmt.msg.consumer.UserSyncConsumer"/>
+        </property>
+    </bean>
+
+
+</beans>

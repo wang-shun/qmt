@@ -1,0 +1,5 @@
+jvm.args=-Xms256m -Xmx1024m -XX\:MaxMetaspaceSize\=300m -XX\:MetaspaceSize\=128m -XX:MaxDirectMemorySize=1024m \
+        -XX:+UseG1GC -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=40 -XX:MaxGCPauseMillis=200
+
+caller.country=CN
+caller.language=ZH_CN

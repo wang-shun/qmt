@@ -1,0 +1,4 @@
+<div class="w-header" data-idf="$wHeader.idf">
+    <h2>$wHeader.words</h2>
+</div>
+

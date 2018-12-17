@@ -1,0 +1,24 @@
+jvm.args=-Xms256m -Xmx1024m -Xmn128m -XX\:MaxMetaspaceSize\=300m -XX\:MetaspaceSize\=128m -XX:MaxDirectMemorySize=1024m \
+        -XX:+UseG1GC -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=40 -XX:MaxGCPauseMillis=200
+
+spring.profiles.active=prod
+
+caller.country=CN
+caller.language=ZH_CN
+
+mongo.sbc.replicaset=10.154.28.195:9102,10.154.28.195:9103
+mongo.sbc.replicaset.tag.name=location
+mongo.sbc.replicaset.tag.value=Beijing
+mongo.sbc.db=qmt_sbc_staging
+mongo.sbc.username=lesports
+mongo.sbc.password=lesports
+
+play.url.news=http://www.lesports.com/news/%s.html
+
+## letv live team rpc server
+hessian.server=10.176.127.25:8080
+
+play.url.match=http://sports.letv.com/match/%s.html
+play.url.live=http://sports.letv.com/live/%s.html
+play.url.video=http://sports.letv.com/video/%s.html
+tlive.url.match=http://sports.letv.com/match/%s/tlive.html

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd">
+
+
+    <mongo:mapping-converter id="mongoConverter" base-package="com.lesports.qmt">
+        <mongo:custom-converters>
+            <mongo:converter>
+                <bean class="com.lesports.converter.LangStringWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.lesports.converter.ImageUrlExtWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.lesports.converter.CompoundTagWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.lesports.converter.CompoundTagReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.lesports.converter.CountryLangIdWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.lesports.converter.CountryLangIdReadConverter"/>
+            </mongo:converter>
+        </mongo:custom-converters>
+    </mongo:mapping-converter>
+
+    <bean id="noClassMongoConverter" class="com.lesports.mongo.converter.MongoConverterEnhanceFactoryBean">
+        <property name="converter" ref="mongoConverter"/>
+    </bean>
+
+    <mongo:repositories base-package="com.lesports.qmt.transcode.repository"/>
+
+    <beans profile="prod">
+        <mongo:mongo-client id="mongo" replica-set="${mongo.transcode.replicaset}"
+                            credentials="${mongo.transcode.username}:${mongo.transcode.password}@${mongo.transcode.db}">
+            <mongo:client-options connect-timeout="10000" max-wait-time="1500" socket-timeout="1500"
+                                  max-connection-idle-time="600000" write-concern="SAFE"
+                                  connections-per-host="80"
+                                  read-preference="PRIMARY"/>
+        </mongo:mongo-client>
+
+        <mongo:db-factory id="mongoDbFactory" dbname="${mongo.transcode.db}" mongo-ref="mongo"/>
+
+        <bean id="tag" class="com.mongodb.Tag">
+            <constructor-arg name="name" value="${mongo.transcode.replicaset.tag.name}"/>
+            <constructor-arg name="value" value="${mongo.transcode.replicaset.tag.value}"/>
+        </bean>
+        <bean id="tagSet" class="com.mongodb.TagSet">
+            <constructor-arg name="tag" ref="tag"/>
+        </bean>
+        <bean id="readPreferenceSecondary" class="com.mongodb.ReadPreference" factory-method="secondary">
+            <constructor-arg name="tagSet" ref="tagSet"/>
+        </bean>
+
+        <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+            <constructor-arg ref="mongoDbFactory"/>
+            <constructor-arg ref="noClassMongoConverter"/>
+            <property name="readPreference" ref="readPreferenceSecondary"></property>
+        </bean>
+    </beans>
+
+    <beans profile="default">
+        <mongo:mongo-client id="mongo" replica-set="${mongo.transcode.replicaset}"
+                            >
+            <mongo:client-options connect-timeout="10000" max-wait-time="1500" socket-timeout="1500"
+                                  max-connection-idle-time="600000" write-concern="SAFE"
+                                  connections-per-host="80"
+                                  read-preference="PRIMARY"/>
+        </mongo:mongo-client>
+
+        <mongo:db-factory id="mongoDbFactory" dbname="${mongo.transcode.db}" mongo-ref="mongo"
+
+                          />
+
+        <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+            <constructor-arg ref="mongoDbFactory"/>
+            <constructor-arg ref="noClassMongoConverter"/>
+        </bean>
+    </beans>
+
+</beans>

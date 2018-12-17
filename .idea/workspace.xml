@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="645419ae-578f-4175-9b4f-0f134380a2be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-base-web/qmt-base-web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-base.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api/qmt-id-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-id/qmt-id.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-log/qmt-admin-log/qmt-admin-log.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-log/qmt-log.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/qmt-msg-center.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-consumer/qmt-msg-consumer.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-core/qmt-msg-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-producer/qmt-msg-producer.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-service/qmt-msg-service.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-common/qmt-common.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-common/qmt-service-core-support/qmt-service-core-support.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-common/qmt-service-core/qmt-service-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-common/qmt-web-core/qmt-web-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbc/qmt-resource-combo/qmt-resource-combo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-client/qmt-sbc-rpc-api-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-server/qmt-sbc-rpc-api-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api/qmt-sbc-rpc-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-admin-web-api-core/qmt-sbd-admin-web-api-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-admin-web-api/qmt-sbd-admin-web-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-model/qmt-sbd-model.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api-client/qmt-sbd-rpc-api-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api-server/qmt-sbd-rpc-api-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core-impl/qmt-sbd-rpc-core-impl.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-internal-client/qmt-sbd-rpc-internal-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-internal-server/qmt-sbd-rpc-internal-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-dto/qmt-tlive-dto.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-model/qmt-tlive-model.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api-client/qmt-tlive-rpc-api-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api-server/qmt-tlive-rpc-api-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api/qmt-tlive-rpc-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-core-impl/qmt-tlive-rpc-core-impl.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-core/qmt-tlive-rpc-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-internal-client/qmt-tlive-rpc-internal-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-internal-server/qmt-tlive-rpc-internal-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-tlive/qmt-tlive.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-transcode/qmt-transcode-admin-web-api/qmt-transcode-admin-web-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-transcode/qmt-transcode-dto/qmt-transcode-dto.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-transcode/qmt-transcode-model/qmt-transcode-model.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-core-impl/qmt-transcode-rpc-core-impl.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-core/qmt-transcode-rpc-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-internal-client/qmt-transcode-rpc-internal-client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-internal-server/qmt-transcode-rpc-internal-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-transcode/qmt-transcode.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-app-web-api/qmt-app-web-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-ipad-web-api/qmt-ipad-web-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-share-web-core/qmt-share-web-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-tv-web-api/qmt-tv-web-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/qmt-web-api-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-web-api/qmt-web-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-web-apis.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quammeiti.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api-client/qmt-config-rpc-api-client.iml" afterPath="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api-client/qmt-config-rpc-api-client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api/qmt-config-rpc-api.iml" afterPath="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api/qmt-config-rpc-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-dto/qmt-sbd-dto.iml" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-dto/qmt-sbd-dto.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api/qmt-sbd-rpc-api.iml" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api/qmt-sbd-rpc-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core/qmt-sbd-rpc-core.iml" afterPath="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core/qmt-sbd-rpc-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api-core/qmt-op-web-api-core.iml" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api-core/qmt-op-web-api-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api/qmt-op-web-api.iml" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api/qmt-op-web-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-web-apis/qmt-play-web-api/qmt-play-web-api.iml" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-play-web-api/qmt-play-web-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qmt-web-apis/qmt-realtime-web-api/qmt-realtime-web-api.iml" afterPath="$PROJECT_DIR$/qmt-web-apis/qmt-realtime-web-api/qmt-realtime-web-api.iml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core-impl/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-rpc-core-impl/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-common/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-rpc-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-id/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-internal-server/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-rpc-internal-server/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-admin-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-internal-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-internal-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api-server/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-common/qmt-web-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-msg/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-rpc-internal-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-share-web-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-transcode/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-producer/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-common/qmt-service-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-admin-web-api-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-ipad-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-internal-server/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-transcode/qmt-transcode-admin-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-log/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-tv-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-core-impl/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-core-impl/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-server/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-base-web/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-dto/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-internal-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-realtime-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-internal-server/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-play-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api-server/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-log/qmt-admin-log/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-dto/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-dto/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-dto/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-admin-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-internal-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-app-web-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-model/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-model/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-transcode/qmt-transcode-dto/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-internal-server/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-service/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbc/qmt-resource-combo/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-model/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-common/qmt-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api-server/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-transcode/qmt-transcode-model/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-common/qmt-service-core-support/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api-client/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-core-impl/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-sbd/qmt-sbd-admin-web-api-core/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-tlive/qmt-tlive-model/target/" />
+    <ignored path="$PROJECT_DIR$/qmt-web-apis/qmt-web-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HttpCatCrossFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-base/qmt-log/qmt-admin-log/src/main/java/com/lesports/qmt/log/filter/HttpCatCrossFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TIdService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api/src/main/java/com/lesports/id/api/TIdService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TIdConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api/src/main/java/com/lesports/id/api/TIdConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api/src/main/java/com/lesports/id/api/IdType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="117" column="3" lean-forward="false" selection-start-line="117" selection-start-column="3" selection-end-line="117" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/java/com/lesports/qmt/msg/aop/ConsumerAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="42" column="48" lean-forward="false" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MmsTranscodeMessageConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/java/com/lesports/qmt/msg/consumer/MmsTranscodeMessageConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-77">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmsSyncConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/java/com/lesports/qmt/msg/consumer/SmsSyncConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-324">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2603">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TQmtSbcServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-server/src/main/java/com/lesports/qmt/sbc/server/TQmtSbcServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HedwigServer.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/me/ellios/hedwig-server/3.2.0-SNAPSHOT/hedwig-server-3.2.0-20170314.073054-1.jar!/me/ellios/hedwig/rpc/server/HedwigServer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SEARCH_SUGGEST_URL</find>
+      <find>Ch</find>
+      <find>Publish</find>
+      <find>tag</find>
+      <find>fillHtopicListModel</find>
+      <find>TopicListVo</find>
+      <find>save</find>
+      <find>cInstanceCache</find>
+      <find>cache</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/qmt-web-apis/qmt-tv-web-api/src/main/java/com/lesports/qmt/tv/api/SmsTVApiServer.java" />
+        <option value="$PROJECT_DIR$/qmt-web-apis/qmt-app-web-api/src/main/java/com/lesports/qmt/app/api/resources/TopicResource.java" />
+        <option value="$PROJECT_DIR$/qmt-web-pages/qmt-web-page/src/main/java/com/lesports/qmt/play/controller/LePlayController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.3.9/libexec" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-sbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg-center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg-center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg-center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg-center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quammeiti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qmt-msg-center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="java.util.Conc&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;ImageUtils&#9;PSI&#9;JAVA://com.lesports.qmt.op.web.api.core.util.ImageUtils&#10;ImageU&#9;PSI&#9;JAVA://com.lesports.qmt.sbc.utils.ImageUtils&#10;ImageUtil&#9;PSI&#9;JAVA://com.lesports.qmt.sbd.utils.ImageUtil&#10;TopicService&#9;FILE&#9;file:///Users/ryan/Documents/workspaces/qmt/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/service/TopicService.java&#10;TopicRes&#9;FILE&#9;file:///Users/ryan/Documents/workspaces/qmt/qmt-web-apis/qmt-app-web-api/src/main/java/com/lesports/qmt/app/api/resources/TopicResource.java&#10;TopicListApi&#9;PSI&#9;JAVA://com.lesports.utils.TopicListApi&#10;HtopicListApi&#9;PSI&#9;JAVA://com.lesports.utils.HtopicListApi&#10;NewsReso&#9;PSI&#9;JAVA://com.lesports.qmt.api.resources.NewsResource&#10;TTopicConverter.java&#9;FILE&#9;file:///Users/ryan/Documents/workspaces/qmt/qmt-sbc/qmt-sbc-rpc-core-impl/src/main/java/com/lesports/qmt/sbc/converter/TTopicConverter.java&#10;QmtConfigApis&#9;PSI&#9;JAVA://com.lesports.qmt.config.client.QmtConfigApis&#10;EpisodeRes&#9;PSI&#9;JAVA://com.lesports.qmt.tv.api.resources.EpisodeResource" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="qmt-admin-log" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-base-web" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-base-web" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-id" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-id" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-log" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-log" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-log/qmt-admin-log" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-log/qmt-admin-log" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-consumer" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-consumer" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-producer" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-producer" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-service" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-service" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-common" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-common/qmt-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-common/qmt-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-common/qmt-service-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-common/qmt-service-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-common/qmt-service-core-support" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-common/qmt-service-core-support" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-common/qmt-web-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-common/qmt-web-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-admin-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-admin-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-admin-web-api-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-admin-web-api-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-dto" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-dto" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-model" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-model" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-api-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-core-impl" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-core-impl" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-internal-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-internal-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-internal-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-config/qmt-config-rpc-internal-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-resource-combo" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-resource-combo" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-dto" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-dto" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-model" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-model" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-core-impl" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-core-impl" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-internal-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-internal-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-internal-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-internal-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-admin-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-admin-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-admin-web-api-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-admin-web-api-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-dto" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-dto" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-model" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-model" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-api-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core-impl" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core-impl" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-internal-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-internal-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-internal-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-internal-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-dto" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-dto" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-model" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-model" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-api-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-core-impl" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-core-impl" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-internal-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-internal-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-internal-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-tlive/qmt-tlive-rpc-internal-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-transcode" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-transcode" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-admin-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-admin-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-dto" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-dto" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-model" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-model" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-core-impl" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-core-impl" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-internal-client" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-internal-client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-internal-server" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-transcode/qmt-transcode-rpc-internal-server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-app-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-app-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-ipad-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-ipad-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-play-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-play-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-realtime-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-realtime-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-share-web-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-share-web-core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-tv-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-tv-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-web-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-web-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="645419ae-578f-4175-9b4f-0f134380a2be" name="Default" comment="" />
+      <created>1489411930467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489411930467</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2599179" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18597998" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25608012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33286715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18597998" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2599179" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33286715" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-internal-client/src/main/java/com/lesports/qmt/sbc/client/QmtSbcTopicInternalApis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="72" column="49" lean-forward="false" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-model/src/main/java/com/lesports/qmt/sbc/model/TopicItemPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/lesports/lesports-third-party-api/2.0.0-SNAPSHOT/lesports-third-party-api-2.0.0-20170215.140047-54.jar!/com/lesports/utils/TopicListApi.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="131" column="24" lean-forward="false" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-pages/qmt-web-page/src/main/java/com/lesports/qmt/play/controller/LePlayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6574">
+          <caret line="385" column="39" lean-forward="false" selection-start-line="385" selection-start-column="39" selection-end-line="385" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-pages/qmt-site-web-core/src/main/java/com/lesports/qmt/web/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9481">
+          <caret line="538" column="32" lean-forward="false" selection-start-line="538" selection-start-column="32" selection-end-line="538" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/lesports/lesports-third-party-api/2.0.0-SNAPSHOT/lesports-third-party-api-2.0.0-20170215.140047-54.jar!/com/lesports/utils/HtopicListApi.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="152" column="24" lean-forward="false" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/service/TopicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api-core/src/main/java/com/lesports/qmt/sbc/service/impl/TopicItemPackageWebServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-app-web-api/src/main/java/com/lesports/qmt/app/api/resources/TopicResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="93" column="10" lean-forward="false" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-app-web-api/src/main/java/com/lesports/qmt/app/api/resources/NewsResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbd/qmt-sbd-rpc-core-impl/src/main/java/com/lesports/qmt/sbd/utils/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-core-impl/src/main/java/com/lesports/qmt/sbc/utils/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-op-web-api-core/src/main/java/com/lesports/qmt/op/web/api/core/util/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/vo/TopicInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api-core/src/main/java/com/lesports/qmt/sbc/vo/TopicItemPackageVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-admin-web-api-core/src/main/java/com/lesports/qmt/sbc/converter/TopicItemPackageVoConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-app-web-api/src/main/java/com/lesports/qmt/app/api/resources/AlbumResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/service/AlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/service/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api/src/main/java/com/lesports/qmt/sbc/api/service/TSbcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="315" column="22" lean-forward="false" selection-start-line="315" selection-start-column="22" selection-end-line="315" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-client/src/main/java/com/lesports/qmt/sbc/client/QmtSbcApis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5111">
+          <caret line="291" column="41" lean-forward="false" selection-start-line="291" selection-start-column="41" selection-end-line="291" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-realtime-web-api/src/main/java/com/lesports/qmt/api/resources/AppEpisodeResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/cache/impl/FallbackCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="43" column="58" lean-forward="false" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/vo/GetRealtimeCacheParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/cache/AbstractCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/cache/impl/EpisodeCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-realtime-web-api/src/main/java/com/lesports/qmt/api/resources/TvEpisodeResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="84" column="46" lean-forward="false" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/service/EpisodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3040">
+          <caret line="167" column="27" lean-forward="false" selection-start-line="167" selection-start-column="27" selection-end-line="167" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-web-apis/qmt-web-api-core/src/main/java/com/lesports/qmt/web/api/core/service/impl/EpisodeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="723" column="66" lean-forward="false" selection-start-line="723" selection-start-column="66" selection-end-line="723" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/java/com/lesports/qmt/msg/web/MessageResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/resources/hedwig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/resources/properties/application-swiftq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/filters/filter_zh_CN_test_cn.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/java/com/lesports/qmt/msg/MsgCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-log/qmt-admin-log/src/main/java/com/lesports/qmt/log/WebLogAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-log/qmt-admin-log/src/main/java/com/lesports/qmt/log/LoggerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="83" lean-forward="false" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/text/Format.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="132" column="22" lean-forward="false" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar!/org/apache/commons/lang3/time/FormatCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#3413#3414#0" expanded="true" />
+            <element signature="e#3453#3454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5833">
+          <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="267" column="24" lean-forward="false" selection-start-line="267" selection-start-column="24" selection-end-line="267" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar!/org/apache/commons/lang3/time/FastDateFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding>
+            <element signature="e#1019#1220#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-log/qmt-admin-log/src/main/java/com/lesports/qmt/log/filter/HttpCatCrossFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api/src/main/java/com/lesports/id/api/TIdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api/src/main/java/com/lesports/id/api/TIdConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-id/qmt-id-api/src/main/java/com/lesports/id/api/IdType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="117" column="3" lean-forward="false" selection-start-line="117" selection-start-column="3" selection-end-line="117" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/java/com/lesports/qmt/msg/aop/ConsumerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="42" column="48" lean-forward="false" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/java/com/lesports/qmt/msg/consumer/MmsTranscodeMessageConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/src/main/java/com/lesports/qmt/msg/consumer/SmsSyncConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-base/qmt-msg/qmt-msg-center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2603">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qmt-sbc/qmt-sbc-rpc-api-server/src/main/java/com/lesports/qmt/sbc/server/TQmtSbcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/me/ellios/hedwig-server/3.2.0-SNAPSHOT/hedwig-server-3.2.0-20170314.073054-1.jar!/me/ellios/hedwig/rpc/server/HedwigServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>qmt-admin-log</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

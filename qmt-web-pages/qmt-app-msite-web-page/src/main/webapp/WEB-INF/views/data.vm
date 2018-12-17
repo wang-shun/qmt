@@ -1,0 +1,170 @@
+//比赛详细信息
+<br>
+match : $match
+<br>
+
+//赛事名称
+<br>
+cname : $cname
+<br>
+
+//比赛状态
+<br>
+status : $status
+
+<br/>
+//相关视频
+<br>
+relatedVideos : $relatedVideos
+
+<br/>
+
+//节目详情,播放用
+<br>
+episode : $episode
+
+<br/>
+
+//阵容
+<br>
+squads : $squads
+
+<br/>
+
+//榜单信息，积分榜。。。
+<br/>
+toplist : $toplist
+
+<br/>
+
+//视频详情
+<br>
+video : $video
+
+<br/>
+---------------------------------------------------------
+
+<br/>
+//体育热播榜
+<br>
+hotRand : $hotRand
+
+<br/>
+//其它赛程
+<br>
+otherMatches : $otherMatches
+
+<br/>
+//上一场
+<br>
+prev : $prev
+
+<br/>
+//下一场
+<br>
+next : $next
+
+
+<br/>
+//视频id
+<br>
+vid : $vid
+
+<br/>
+//mate title
+<br>
+title : $title
+
+<br/>
+//mate keywords
+<br>
+keywords : $keywords
+
+<br/>
+//mate description
+<br>
+description : $description
+
+<br/>
+//分享
+<br>
+share : $share
+
+<br/>
+//播放页类型: 0:一般播放页 1:小专题页
+<br>
+videoType : $videoType
+
+<br/>
+//定位标签
+<br>
+tags : $tags
+
+<br/>
+//评论id
+<br>
+commentId : $commentId
+
+<br/>
+//新英播放地址
+<br>
+xinyingPlay : $xinyingPlay
+
+<br/>
+//专辑id
+<br>
+aid : $aid
+
+<br/>
+//新闻
+<br>
+tNews : $tNews
+
+<br/>
+//showName
+<br>
+showName : $showName
+
+<br/>
+//非正片视频的index
+<br>
+index : $index
+
+<br/>
+//综艺类视频类型: 0:非正片 1:正片
+<br>
+isFeature : $isFeature
+
+<br/>
+//非正片视频的总数
+<br>
+total : $total
+
+<br/>
+//正片视频所属的年月(用于异步接口获取对应的tab)
+<br>
+yearAndMonth : $yearAndMonth
+
+<br/>
+//球员数据
+<br>
+playerData : $playerData
+
+<br/>
+//个人数据
+<br>
+personalData : $personalData
+
+<br/>
+//图文直播信息
+<br>
+textLive : $textLive
+<br/>
+//球队排名
+<br>
+teamRank : $teamRank
+
+<br/>
+//聊天室Id
+<br>
+chatRoomId : $chatRoomId

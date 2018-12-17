@@ -1,0 +1,2 @@
+server.contextPath=/image/api/v2
+spring.http.multipart.maxFileSize=10MB

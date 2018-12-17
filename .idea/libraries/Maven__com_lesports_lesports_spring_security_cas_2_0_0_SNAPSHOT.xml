@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.lesports:lesports-spring-security-cas:2.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/lesports/lesports-spring-security-cas/2.0.0-SNAPSHOT/lesports-spring-security-cas-2.0.0-20170307.102505-88.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/lesports/lesports-spring-security-cas/2.0.0-SNAPSHOT/lesports-spring-security-cas-2.0.0-20170307.102505-88-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/lesports/lesports-spring-security-cas/2.0.0-SNAPSHOT/lesports-spring-security-cas-2.0.0-20170307.102505-88-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

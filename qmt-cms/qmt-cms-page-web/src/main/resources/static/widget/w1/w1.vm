@@ -1,0 +1,11 @@
+<div class="w1" data-idf="$w1.idf">
+	<h2> this is w1 ... </h2>
+</div>
+
+<script>
+	window.jsVar = window.jsVar || {};
+	window.jsVar.w1 = {
+		var1:'this is w1 var-1'
+	}
+</script>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>qmt-transcode</artifactId>
+        <groupId>com.lesports.qmt</groupId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-transcode-model</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.letv.live</groupId>
+            <artifactId>urus-liveroom-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-transcode-dto</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-sbc-dto</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-service-core-support</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>lesports-mongo-support</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-core</artifactId>
+            <version>2.0.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

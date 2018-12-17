@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-sbc</artifactId>
+    <packaging>pom</packaging>
+    <name>qmt-sbc</name>
+    <description>Lesports Quan Mei Ti Sport Basic Content</description>
+
+    <modules>
+        <module>qmt-sbc-dto</module>
+        <module>qmt-sbc-model</module>
+        <module>qmt-sbc-admin-web-api</module>
+        <module>qmt-sbc-rpc-core</module>
+        <module>qmt-sbc-admin-web-api-core</module>
+        <module>qmt-sbc-rpc-core-impl</module>
+        <module>qmt-sbc-rpc-api</module>
+        <module>qmt-sbc-rpc-api-server</module>
+        <module>qmt-sbc-rpc-api-client</module>
+        <module>qmt-sbc-rpc-internal-client</module>
+        <module>qmt-sbc-rpc-internal-server</module>
+        <module>qmt-resource-combo</module>
+    </modules>
+
+
+</project>

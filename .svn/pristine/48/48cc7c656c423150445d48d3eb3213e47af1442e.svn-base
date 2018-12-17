@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-msg-consumer</artifactId>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <environment.name>dev</environment.name>
+                <environment.type>dev</environment.type>
+                <environment.group></environment.group>
+            </properties>
+        </profile>
+        <profile>
+            <id>test-cn</id>
+            <properties>
+                <environment.name>test_cn</environment.name>
+                <environment.type>test</environment.type>
+                <environment.group>cn</environment.group>
+                <environment.area>CN</environment.area>
+            </properties>
+        </profile>
+        <profile>
+            <id>intra</id>
+            <properties>
+                <environment.name>intra</environment.name>
+                <environment.type>prod</environment.type>
+                <environment.group>intra</environment.group>
+            </properties>
+        </profile>
+    </profiles>
+
+    <build>
+        <finalName>${project.artifactId}-${environment.name}-${project.version}</finalName>
+        <filters>
+            <filter>src/main/filters/filter_zh_CN_${environment.name}.properties</filter>
+        </filters>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <filters>
+                        <filter>${project.basedir}/src/main/filters/filter_zh_CN_${environment.name}.properties</filter>
+                    </filters>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.lesports</groupId>
+                <artifactId>lesports-build-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-msg-service</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>qmt-admin-log</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>lesports-spring-boot-ext</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>-->
+
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>lesports-spring-security-cas</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>-->
+
+        <!-- mq -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.qpid</groupId>
+            <artifactId>qpid-client</artifactId>
+            <version>${qpid.client.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jms_1.1_spec</artifactId>
+            <version>${geronimo.jms.version}</version>
+        </dependency>
+
+        <!--logstash-->
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>4.8</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

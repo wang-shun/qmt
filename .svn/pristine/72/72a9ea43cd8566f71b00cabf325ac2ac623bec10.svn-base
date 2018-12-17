@@ -1,0 +1,6 @@
+mongo.config.replicaset=${mongo.config.replicaset}
+mongo.config.replicaset.tag.name=${mongo.config.replicaset.tag.name}
+mongo.config.replicaset.tag.value=${mongo.config.replicaset.tag.value}
+mongo.config.db=${mongo.config.db}
+mongo.config.username=${mongo.config.username}
+mongo.config.password=${mongo.config.password}

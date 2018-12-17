@@ -1,0 +1,17 @@
+jvm.args=-Xms256m -Xmx1024m -Xmn128m -XX\:MaxPermSize\=300m -XX\:PermSize\=128m
+
+spring.profiles.active=default
+
+mongo.sbc.replicaset=10.154.157.33:27017
+mongo.sbc.db=sbc_test
+mongo.sbc.username=
+mongo.sbc.password=
+
+##¡ƒÃÏ “###
+chat.room.url=http://10.11.145.17/chat/
+
+mms.video.url=http://10.204.28.86/mms/inner/video/get?type=2&platform=sport&id={0}
+
+
+## letv live team rpc server
+hessian.server=10.176.127.25:8080

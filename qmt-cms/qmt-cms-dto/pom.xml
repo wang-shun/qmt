@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-cms-dto</artifactId>
+
+    <profiles>
+        <profile>
+            <properties>
+                <thrift.executable>/usr/local/bin/thrift</thrift.executable>
+                <thrift.outputDirectory>target/generated-sources</thrift.outputDirectory>
+            </properties>
+            <id>pbt</id>
+            <activation>
+                <file>
+                    <exists>${thrift.executable}</exists>
+                </file>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <version>1.7</version>
+                        <executions>
+                            <execution>
+                                <id>setup</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <mkdir dir="${thrift.outputDirectory}"/>
+                                        <delete includeemptydirs="true">
+                                            <fileset dir="src/main/java" includes="**/*"/>
+                                        </delete>
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-cms-common</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/common/cms_common.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-layout</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/layout.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-widget</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/widget.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-column</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/column.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-page</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/page.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>clean</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <copy todir="src/main/java">
+                                            <fileset dir="${thrift.outputDirectory}/gen-javabean" includes="**/*"/>
+                                        </copy>
+                                        <delete dir="${thrift.outputDirectory}/gen-javabean"/>
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.thrift</groupId>
+            <artifactId>libthrift</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>api-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-config-dto</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+    </dependencies>
+</project>

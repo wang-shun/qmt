@@ -1,0 +1,10 @@
+hot.rank.top=${hot.rank.top}
+
+default.locale=${default.locale}
+
+caller.id=${caller.id}
+caller.country=${caller.country}
+caller.language=${caller.language}
+athletics.highjump.type=${athletics.highjump.type}
+
+cms.h.topic.list.url=${cms.h.topic.list.url}

@@ -1,0 +1,13 @@
+jvm.args=-Xms1024m -Xmx1024m -Xmn400m -XX\:MaxPermSize\=300m -XX\:PermSize\=128m -XX:MaxDirectMemorySize=1024m
+
+spring.profiles.active=prod
+
+caller.country=CN
+caller.language=ZH_CN
+
+mongo.sms.replicaset=10.183.101.175:9102,10.183.101.174:9102,10.183.101.173:9102,10.110.92.88:9102,10.110.92.93:9102
+mongo.sms.replicaset.tag.name=location
+mongo.sms.replicaset.tag.value=Beijing
+mongo.sms.db=sms
+mongo.sms.username=lesports
+mongo.sms.password=lesports

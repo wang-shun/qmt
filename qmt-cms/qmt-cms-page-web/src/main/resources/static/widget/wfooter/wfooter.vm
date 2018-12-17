@@ -1,0 +1,3 @@
+<div class="w-footer" data-idf="$wFooter.idf">
+    <h2>$wFooter.words</h2>
+</div>

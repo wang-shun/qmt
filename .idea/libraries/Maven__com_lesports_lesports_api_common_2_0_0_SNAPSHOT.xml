@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.lesports:lesports-api-common:2.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/lesports/lesports-api-common/2.0.0-SNAPSHOT/lesports-api-common-2.0.0-20161027.092700-6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/lesports/lesports-api-common/2.0.0-SNAPSHOT/lesports-api-common-2.0.0-20161027.092700-6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/lesports/lesports-api-common/2.0.0-SNAPSHOT/lesports-api-common-2.0.0-20161027.092700-6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

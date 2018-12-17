@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qmt-admin-log" />
+        <module name="qmt-app-web-api" />
+        <module name="qmt-base-web" />
+        <module name="qmt-config-admin-web-api" />
+        <module name="qmt-config-admin-web-api-core" />
+        <module name="qmt-config-dto" />
+        <module name="qmt-config-model" />
+        <module name="qmt-config-rpc-api" />
+        <module name="qmt-config-rpc-api-client" />
+        <module name="qmt-config-rpc-api-server" />
+        <module name="qmt-config-rpc-core" />
+        <module name="qmt-config-rpc-core-impl" />
+        <module name="qmt-config-rpc-internal-client" />
+        <module name="qmt-config-rpc-internal-server" />
+        <module name="qmt-core" />
+        <module name="qmt-id-api" />
+        <module name="qmt-ipad-web-api" />
+        <module name="qmt-msg-center" />
+        <module name="qmt-msg-consumer" />
+        <module name="qmt-msg-core" />
+        <module name="qmt-msg-producer" />
+        <module name="qmt-msg-service" />
+        <module name="qmt-op-web-api" />
+        <module name="qmt-op-web-api-core" />
+        <module name="qmt-play-web-api" />
+        <module name="qmt-realtime-web-api" />
+        <module name="qmt-resource-combo" />
+        <module name="qmt-sbc-admin-web-api" />
+        <module name="qmt-sbc-admin-web-api-core" />
+        <module name="qmt-sbc-dto" />
+        <module name="qmt-sbc-model" />
+        <module name="qmt-sbc-rpc-api" />
+        <module name="qmt-sbc-rpc-api-client" />
+        <module name="qmt-sbc-rpc-api-server" />
+        <module name="qmt-sbc-rpc-core" />
+        <module name="qmt-sbc-rpc-core-impl" />
+        <module name="qmt-sbc-rpc-internal-client" />
+        <module name="qmt-sbc-rpc-internal-server" />
+        <module name="qmt-sbd-admin-web-api" />
+        <module name="qmt-sbd-admin-web-api-core" />
+        <module name="qmt-sbd-dto" />
+        <module name="qmt-sbd-model" />
+        <module name="qmt-sbd-rpc-api" />
+        <module name="qmt-sbd-rpc-api-client" />
+        <module name="qmt-sbd-rpc-api-server" />
+        <module name="qmt-sbd-rpc-core" />
+        <module name="qmt-sbd-rpc-core-impl" />
+        <module name="qmt-sbd-rpc-internal-client" />
+        <module name="qmt-sbd-rpc-internal-server" />
+        <module name="qmt-service-core" />
+        <module name="qmt-service-core-support" />
+        <module name="qmt-share-web-core" />
+        <module name="qmt-tlive-dto" />
+        <module name="qmt-tlive-model" />
+        <module name="qmt-tlive-rpc-api" />
+        <module name="qmt-tlive-rpc-api-client" />
+        <module name="qmt-tlive-rpc-api-server" />
+        <module name="qmt-tlive-rpc-core" />
+        <module name="qmt-tlive-rpc-core-impl" />
+        <module name="qmt-tlive-rpc-internal-client" />
+        <module name="qmt-tlive-rpc-internal-server" />
+        <module name="qmt-transcode-admin-web-api" />
+        <module name="qmt-transcode-dto" />
+        <module name="qmt-transcode-model" />
+        <module name="qmt-transcode-rpc-core" />
+        <module name="qmt-transcode-rpc-core-impl" />
+        <module name="qmt-transcode-rpc-internal-client" />
+        <module name="qmt-transcode-rpc-internal-server" />
+        <module name="qmt-tv-web-api" />
+        <module name="qmt-web-api" />
+        <module name="qmt-web-api-core" />
+        <module name="qmt-web-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qmt-admin-log" target="1.8" />
+      <module name="qmt-app-web-api" target="1.8" />
+      <module name="qmt-base" target="1.8" />
+      <module name="qmt-base-web" target="1.8" />
+      <module name="qmt-common" target="1.8" />
+      <module name="qmt-config" target="1.8" />
+      <module name="qmt-config-admin-web-api" target="1.8" />
+      <module name="qmt-config-admin-web-api-core" target="1.8" />
+      <module name="qmt-config-dto" target="1.8" />
+      <module name="qmt-config-model" target="1.8" />
+      <module name="qmt-config-rpc-api" target="1.8" />
+      <module name="qmt-config-rpc-api-client" target="1.8" />
+      <module name="qmt-config-rpc-api-server" target="1.8" />
+      <module name="qmt-config-rpc-core" target="1.8" />
+      <module name="qmt-config-rpc-core-impl" target="1.8" />
+      <module name="qmt-config-rpc-internal-client" target="1.8" />
+      <module name="qmt-config-rpc-internal-server" target="1.8" />
+      <module name="qmt-core" target="1.8" />
+      <module name="qmt-id" target="1.8" />
+      <module name="qmt-id-api" target="1.8" />
+      <module name="qmt-ipad-web-api" target="1.8" />
+      <module name="qmt-log" target="1.8" />
+      <module name="qmt-msg" target="1.8" />
+      <module name="qmt-msg-center" target="1.8" />
+      <module name="qmt-msg-consumer" target="1.8" />
+      <module name="qmt-msg-core" target="1.8" />
+      <module name="qmt-msg-producer" target="1.8" />
+      <module name="qmt-msg-service" target="1.8" />
+      <module name="qmt-op-web-api" target="1.8" />
+      <module name="qmt-op-web-api-core" target="1.8" />
+      <module name="qmt-play-web-api" target="1.8" />
+      <module name="qmt-realtime-web-api" target="1.8" />
+      <module name="qmt-resource-combo" target="1.8" />
+      <module name="qmt-sbc" target="1.8" />
+      <module name="qmt-sbc-admin-web-api" target="1.8" />
+      <module name="qmt-sbc-admin-web-api-core" target="1.8" />
+      <module name="qmt-sbc-dto" target="1.8" />
+      <module name="qmt-sbc-model" target="1.8" />
+      <module name="qmt-sbc-rpc-api" target="1.8" />
+      <module name="qmt-sbc-rpc-api-client" target="1.8" />
+      <module name="qmt-sbc-rpc-api-server" target="1.8" />
+      <module name="qmt-sbc-rpc-core" target="1.8" />
+      <module name="qmt-sbc-rpc-core-impl" target="1.8" />
+      <module name="qmt-sbc-rpc-internal-client" target="1.8" />
+      <module name="qmt-sbc-rpc-internal-server" target="1.8" />
+      <module name="qmt-sbd" target="1.8" />
+      <module name="qmt-sbd-admin-web-api" target="1.8" />
+      <module name="qmt-sbd-admin-web-api-core" target="1.8" />
+      <module name="qmt-sbd-dto" target="1.8" />
+      <module name="qmt-sbd-model" target="1.8" />
+      <module name="qmt-sbd-rpc-api" target="1.8" />
+      <module name="qmt-sbd-rpc-api-client" target="1.8" />
+      <module name="qmt-sbd-rpc-api-server" target="1.8" />
+      <module name="qmt-sbd-rpc-core" target="1.8" />
+      <module name="qmt-sbd-rpc-core-impl" target="1.8" />
+      <module name="qmt-sbd-rpc-internal-client" target="1.8" />
+      <module name="qmt-sbd-rpc-internal-server" target="1.8" />
+      <module name="qmt-service-core" target="1.8" />
+      <module name="qmt-service-core-support" target="1.8" />
+      <module name="qmt-share-web-core" target="1.8" />
+      <module name="qmt-tlive" target="1.8" />
+      <module name="qmt-tlive-dto" target="1.8" />
+      <module name="qmt-tlive-model" target="1.8" />
+      <module name="qmt-tlive-rpc-api" target="1.8" />
+      <module name="qmt-tlive-rpc-api-client" target="1.8" />
+      <module name="qmt-tlive-rpc-api-server" target="1.8" />
+      <module name="qmt-tlive-rpc-core" target="1.8" />
+      <module name="qmt-tlive-rpc-core-impl" target="1.8" />
+      <module name="qmt-tlive-rpc-internal-client" target="1.8" />
+      <module name="qmt-tlive-rpc-internal-server" target="1.8" />
+      <module name="qmt-transcode" target="1.8" />
+      <module name="qmt-transcode-admin-web-api" target="1.8" />
+      <module name="qmt-transcode-dto" target="1.8" />
+      <module name="qmt-transcode-model" target="1.8" />
+      <module name="qmt-transcode-rpc-core" target="1.8" />
+      <module name="qmt-transcode-rpc-core-impl" target="1.8" />
+      <module name="qmt-transcode-rpc-internal-client" target="1.8" />
+      <module name="qmt-transcode-rpc-internal-server" target="1.8" />
+      <module name="qmt-tv-web-api" target="1.8" />
+      <module name="qmt-web-api" target="1.8" />
+      <module name="qmt-web-api-core" target="1.8" />
+      <module name="qmt-web-apis" target="1.8" />
+      <module name="qmt-web-core" target="1.8" />
+      <module name="quammeiti" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

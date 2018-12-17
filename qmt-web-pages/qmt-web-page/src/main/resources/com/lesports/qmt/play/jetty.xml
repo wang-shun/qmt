@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_0.dtd">
+
+<Configure id="Server" class="org.eclipse.jetty.server.Server">
+
+    <!-- =========================================================== -->
+    <!-- Configure the Server Thread Pool.                           -->
+    <!-- The server holds a common thread pool which is used by      -->
+    <!-- default as the executor used by all connectors and servlet  -->
+    <!-- dispatches.                                                 -->
+    <!--                                                             -->
+    <!-- Configuring a fixed thread pool is vital to controlling the -->
+    <!-- maximal memory footprint of the server and is a key tuning  -->
+    <!-- parameter for tuning.  In an application that rarely blocks -->
+    <!-- then maximal threads may be close to the number of 5*CPUs.  -->
+    <!-- In an application that frequently blocks, then maximal      -->
+    <!-- threads should be set as high as possible given the memory  -->
+    <!-- available.                                                  -->
+    <!--                                                             -->
+    <!-- Consult the javadoc of o.e.j.util.thread.QueuedThreadPool   -->
+    <!-- for all configuration that may be set here.                 -->
+    <!-- =========================================================== -->
+
+    <Arg name="threadpool">
+        <New class="com.lesports.qmt.play.server.LeJettyThreadPool"></New>
+    </Arg>
+
+    <!-- =========================================================== -->
+    <!-- Http Configuration.                                         -->
+    <!-- This is a common configuration instance used by all         -->
+    <!-- connectors that can carry HTTP semantics (HTTP, HTTPS, SPDY)-->
+    <!-- It configures the non wire protocol aspects of the HTTP     -->
+    <!-- semantic.                                                   -->
+    <!--                                                             -->
+    <!-- This configuration is only defined here and is used by      -->
+    <!-- reference from the jetty-http.xml, jetty-https.xml and      -->
+    <!-- jetty-spdy.xml configuration files which instantiate the    -->
+    <!-- connectors.                                                 -->
+    <!--                                                             -->
+    <!-- Consult the javadoc of o.e.j.server.HttpConfiguration       -->
+    <!-- for all configuration that may be set here.                 -->
+    <!-- =========================================================== -->
+    <New id="httpConfig" class="org.eclipse.jetty.server.HttpConfiguration">
+        <Set name="sendServerVersion">false</Set>
+    </New>
+
+    <!-- =========================================================== -->
+    <!-- extra server options                                        -->
+    <!-- =========================================================== -->
+    <Set name="stopAtShutdown">true</Set>
+    <Set name="stopTimeout">5000</Set>
+    <Set name="dumpAfterStart">false</Set>
+    <Set name="dumpBeforeStop">true</Set>
+
+
+    <!-- =========================================================== -->
+    <!-- Add a HTTP Connector.                                       -->
+    <!-- Configure an o.e.j.server.ServerConnector with a single     -->
+    <!-- HttpConnectionFactory instance using the common httpConfig  -->
+    <!-- instance defined in jetty.xml                               -->
+    <!--                                                             -->
+    <!-- Consult the javadoc of o.e.j.server.ServerConnector and     -->
+    <!-- o.e.j.server.HttpConnectionFactory for all configuration    -->
+    <!-- that may be set here.                                       -->
+    <!-- =========================================================== -->
+    <Call name="addConnector">
+        <Arg>
+            <New class="org.eclipse.jetty.server.ServerConnector">
+                <Arg name="server">
+                    <Ref refid="Server"/>
+                </Arg>
+                <Arg name="factories">
+                    <Array type="org.eclipse.jetty.server.ConnectionFactory">
+                        <Item>
+                            <New class="org.eclipse.jetty.server.HttpConnectionFactory">
+                                <Arg name="config">
+                                    <Ref refid="httpConfig"/>
+                                </Arg>
+                            </New>
+                        </Item>
+                    </Array>
+                </Arg>
+                <Set name="idleTimeout">30000</Set>
+            </New>
+        </Arg>
+    </Call>
+
+
+    <Call class="org.eclipse.jetty.server.ConnectorStatistics" name="addToAllConnectors">
+        <Arg>
+            <Ref refid="Server"/>
+        </Arg>
+    </Call>
+</Configure>

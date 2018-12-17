@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: me.ellios:hedwig-rpc-core:3.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/me/ellios/hedwig-rpc-core/3.2.0-SNAPSHOT/hedwig-rpc-core-3.2.0-20170314.073047-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/me/ellios/hedwig-rpc-core/3.2.0-SNAPSHOT/hedwig-rpc-core-3.2.0-20170314.073047-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/me/ellios/hedwig-rpc-core/3.2.0-SNAPSHOT/hedwig-rpc-core-3.2.0-20170314.073047-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

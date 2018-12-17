@@ -1,0 +1,25 @@
+jvm.args=-Xms1024m -Xmx1024m -XX\:MetaspaceSize=64m -XX\:MaxMetaspaceSize=128m
+swiftq.connection.url=amqp://admin:anonymous@/?brokerlist='tcp://10.11.144.233:5672?retries='2'&connectDelay='5000''&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+swiftq.exchange.name=lesports.qmt.msg.cn.direct
+swiftq.routingkey.name=lesports.routingkey.qmt.msg.cn
+swiftq.connection.url.qmt.cn=amqp://admin:anonymous@/?brokerlist='tcp://10.11.144.233:5672?retries='2'&connectDelay='5000''&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+swiftq.connection.url.qmt.hk=amqp://admin:anonymous@/?brokerlist='tcp://10.11.144.233:5672?retries='2'&connectDelay='5000''&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+swiftq.connection.url.qmt.us=amqp://admin:anonymous@/?brokerlist='tcp://10.11.144.233:5672?retries='2'&connectDelay='5000''&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+sms.swiftq.connection.url=amqp://admin:anonymous@/?brokerlist='tcp://10.11.144.233:5672?retries='2'&connectDelay='5000''&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+swiftq.message.center.url=amqp://admin:anonymous@/?brokerlist='tcp://10.11.145.133:5672?retries='2'&connectDelay='5000''&maxprefetch='0'&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+cloud.swiftq.connection.url=amqp://admin:anonymous@/?brokerlist='tcp://10.100.151.12:5672'&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+user.swiftq.connection.url=amqp://admin:anonymous@/?brokerlist='tcp://10.11.145.133:5672?'&sync_publish='all'&sync_ack='true'
+
+add.cibn.recommend.tv.url=http://s.sms.letv.com/recommendTV/addNewsToCibn?newIds={0}
+
+delete.cdn.cache.enable=false
+search.index.url=http://10.185.30.230:9380/search/v1/i/qmt/{0}/{1}?caller=1007
+cdn.cache.clean.url=http://upload.oss.letv.cn:9340/cdnwb/webservice/cdn/refreshfile.json?username=lereports&key=512cd547902f22be6a01e97efc0c6097&refurls={0}
+qmt.web.uri=http://t.qmt.lesports.com
+
+caller.country=CN
+caller.language=ZH_CN
+
+logstash.destination1=10.112.36.218:4560
+logstash.destination2=10.112.36.219:4560
+

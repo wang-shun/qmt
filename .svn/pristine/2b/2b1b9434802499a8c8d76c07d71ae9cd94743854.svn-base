@@ -1,0 +1,7 @@
+spring.profiles.active=${spring.profiles.active}
+
+#default caller info
+caller.country=${caller.country}
+caller.language=${caller.language}
+
+search.index.url=${search.index.url}

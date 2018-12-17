@@ -1,0 +1,13 @@
+jvm.args=-Xms256m -Xmx1024m -XX\:MaxMetaspaceSize\=300m -XX\:MetaspaceSize\=128m -XX:MaxDirectMemorySize=1024m \
+        -XX:+UseG1GC -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=40 -XX:MaxGCPauseMillis=200 \
+        -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5015
+
+spring.profiles.active=default
+
+caller.country=CN
+caller.language=ZH_CN
+
+mongo.cms.replicaset=10.154.157.33:27017
+mongo.cms.db=qmt_cms_staging
+mongo.cms.username=
+mongo.cms.password=

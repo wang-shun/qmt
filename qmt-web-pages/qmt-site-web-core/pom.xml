@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-site-web-core</artifactId>
+    <packaging>jar</packaging>
+    <description>Lesports Qmt Dynamic Web Core</description>
+
+    <dependencies>
+
+        <!-- 暂时用sms -->
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-tlive-rpc-api-client</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.sms</groupId>
+            <artifactId>lesports-sops-rpc-api-client</artifactId>
+            <version>1.3.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-share-web-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-config-rpc-api-client</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.id</groupId>
+            <artifactId>lesports-id-api-client</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-sbd-rpc-api-client</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-sbc-rpc-api-client</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>lesports-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baidu.fis</groupId>
+            <artifactId>fis-velocity-tools</artifactId>
+            <version>2.0-rc2-le</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>javax.servlet</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>me.ellios</groupId>
+            <artifactId>hedwig-redis-client</artifactId>
+            <version>${hedwig.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>me.ellios</groupId>
+            <artifactId>hedwig-memcached-client</artifactId>
+            <version>${hedwig.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.lesports.bole</groupId>
+            <artifactId>lesports-bole-api-client</artifactId>
+            <version>1.2.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>

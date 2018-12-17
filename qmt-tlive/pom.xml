@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-tlive</artifactId>
+    <packaging>pom</packaging>
+    <name>qmt-tlive</name>
+    <description>Lesports Quan Mei Ti Sport Text Live</description>
+
+    <modules>
+        <module>qmt-tlive-dto</module>
+        <module>qmt-tlive-model</module>
+        <module>qmt-tlive-rpc-core</module>
+        <module>qmt-tlive-rpc-core-impl</module>
+        <module>qmt-tlive-rpc-api</module>
+        <module>qmt-tlive-rpc-api-server</module>
+        <module>qmt-tlive-rpc-api-client</module>
+        <module>qmt-tlive-rpc-internal-client</module>
+        <module>qmt-tlive-rpc-internal-server</module>
+    </modules>
+
+
+</project>

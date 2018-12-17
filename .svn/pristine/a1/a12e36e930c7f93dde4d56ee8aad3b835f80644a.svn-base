@@ -1,0 +1,23 @@
+jvm.args=-Xms256m -Xmx1024m -Xmn128m -XX\:MaxPermSize\=300m -XX\:PermSize\=128m
+
+caller.language=ZH_CN
+caller.country=CN
+
+#carousel
+live.channels.url=http://api.live.letv.com/v1/channel/letv/100/{clientId}?signal=7
+playbill.current.url=http://api.live.letv.com/v1/playbill/current2/{clientId}?channelIds={channelId}
+stream.url=http://api.live.letv.com/v1/stream/{clientId}/{channelId}
+playbill.whole.day.url=http://api.live.letv.com/v1/playbill/wholeday/{clientId}/{channelId}?date={date}
+
+subject.info.url=http://static.api.le.com/cms/tj/getTjS?zid={zid}&platform=sport&lang=zh_cn
+subject.info.tjPackages.url=http://static.api.letv.com/cms/tj/getPackageN?pkgid={pkgid}&lang=zh_cn&platform=sport
+
+search.live.url=http://le.so.letv.com/interface?wd={wd}&pn={pn}&ps={ps}&dt=6&splatid={splatid}&from={from}&cg=4&uid={uid}&imei={imei}&hl={hl}&device_id={device_id}&city_info=CN_0_0_1
+search.subject.url=http://le.so.letv.com/interface?wd={wd}&dt=4&pn={pn}&ps={ps}&ph={ph}&from={from}&cg=4&src=1&uid={uid}&imei={imei}&hl={hl}&device_id={device_id}&city_info=CN_0_0_1
+search.videos.url=http://le.so.letv.com/interface?wd={wd}&dt=2&pn={pn}&ps={ps}&ph={ph}&from={from}&cg=4&src=1&uid={uid}&imei={imei}&hl={hl}&dur={dur}&ctime={ctime}&style={style}&or={or}&device_id={device_id}&city_info=CN_0_0_1
+search.sport.news.url=http://le.so.letv.com/interface?wd={wd}&dt=11&pn={pn}&ps={ps}&ph={ph}&from={from}&cg=4&uid={uid}&imei={imei}&hl={hl}&device_id={device_id}&city_info=CN_0_0_1
+search.albums.url=http://le.so.letv.com/interface?wd={wd}&dt=1&pn={pn}&ps={ps}&ph={ph}&from={from}&cg=4&src=1&uid={uid}&imei={imei}&hl={hl}&device_id={device_id}&city_info=CN_0_0_1
+search.stars.url=http://le.so.letv.com/interface?wd={wd}&dt=3&pn={pn}&ps={ps}&ph={ph}&from={from}&src=1&uid={uid}&imei={imei}&hl={hl}&device_id={device_id}&city_info=CN_0_0_1
+search.suggest.url=http://suggest.letv.cn/suggestion?p={p}&t=all&q={q}&from={from}&splatid={splatid}&cg=4&m={m}&city_info=CN_0_0_1
+
+search.subject.topic.url=http://le.so.letv.com/interface?from=mobile_sport15&dt=4&pn={pn}&ps={ps}&cg=4&src=1&or=6&stt=1&stype=1&uid={uid}&imei={imei}&city_info=CN_0_0_1

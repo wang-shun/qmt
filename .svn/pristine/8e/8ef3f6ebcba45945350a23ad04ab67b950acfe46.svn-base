@@ -1,0 +1,6 @@
+jvm.args=-Xms1024m -Xmx1024m -XX\:MetaspaceSize=64m -XX\:MaxMetaspaceSize=128m
+
+caller.country=CN
+caller.language=ZH_CN
+
+

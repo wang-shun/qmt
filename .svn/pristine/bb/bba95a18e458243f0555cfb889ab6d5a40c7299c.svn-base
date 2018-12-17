@@ -1,0 +1,37 @@
+jvm.args=-Xms256m -Xmx1024m -Xmn128m -XX\:MaxMetaspaceSize\=300m -XX\:MetaspaceSize\=128m -XX:MaxDirectMemorySize=1024m \
+        -XX:+UseG1GC -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=40 -XX:MaxGCPauseMillis=200
+
+spring.profiles.active=prod
+
+caller.country=CN
+caller.language=ZH_CN
+
+
+
+mms.video.url=http://i.api.letv.com/mms/inner/video/get?type=2&platform=sport&id={0}
+
+vrs.video.create.url=http://i.api.letv.com/mms/inner/video/create?sourceId=200036&platform=upload&category=4&videoType={videoType}&pid={pid}\
+  &description={description}&tag={tag}&disableType={disableType}&controlAreas={controlAreas}\
+  &playPlatform={playPlatform}&downPlatform={downPlatform}&token={token}&nameCn={nameCn}\
+  &drmFlag={drmFlag}&coprightSite={copyrightSite}&site={site}&updateType={updateType}
+vrs.video.update.url=http://i.api.letv.com/mms/inner/query/video/update?version=v2&sourceId=200036&platform=upload&category=4&videoType={videoType}&pid={pid}\
+  &description={description}&tag={tag}&disableType={disableType}&controlAreas={controlAreas}\
+  &playPlatform={playPlatform}&downPlatform={downPlatform}&token={token}&nameCn={nameCn}\
+  &drmFlag={drmFlag}&coprightSite={copyrightSite}&site={site}&id={id}&updateType={updateType}
+vrs.album.create.url=http://i.api.letv.com/mms/inner/query/album/create?sourceId=200036&platform=upload&category=4\
+  &token={token}&copyrightSite={copyrightSite}&site={site}&nameCn={nameCn}&description={description}&downloadPlatform={downloadPlatform}
+vrs.album.update.url=http://i.api.letv.com/mms/inner/query/album/update?version=v2&sourceId=200036&platform=upload&category=4\
+  &id={id}&token={token}&copyrightSite={copyrightSite}&site={site}&nameCn={nameCn}&description={description}&downloadPlatform={downloadPlatform}
+vrs.video.clone.url=http://i.api.letv.com/mms/inner/query/video/cloneVideo?token={token}&platform=upload&id={id}&pid={pid}&userId={userId}&cid={cid}
+
+##¡ƒÃÏ “###
+chat.room.url=http://10.11.145.17/chat/
+
+## letv live team rpc server
+hessian.server=10.176.127.25:8080
+
+swiftq.connection.url=amqp://admin:anonymous@/?brokerlist='tcp://10.11.144.233:5672?retries='2'&connectDelay='5000''&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+swiftq.exchange.name=lesports.qmt.msg.cn_staging.direct
+swiftq.routingkey.name=lesports.routingkey.qmt.msg.cn_staging
+
+search.index.url=http://s.qmt.lesports.com/search/v2/i/qmt/{0}/{1}?caller=1007

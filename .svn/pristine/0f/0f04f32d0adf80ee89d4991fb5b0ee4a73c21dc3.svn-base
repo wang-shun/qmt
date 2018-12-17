@@ -1,0 +1,5 @@
+jvm.args=-Xms256m -Xmx1024m
+
+caller.country=CN
+caller.language=ZH_CN
+

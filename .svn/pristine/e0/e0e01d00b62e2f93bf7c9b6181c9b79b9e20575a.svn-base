@@ -1,0 +1,2 @@
+spring.profiles.active=default
+hessian.server=10.176.127.25:8080

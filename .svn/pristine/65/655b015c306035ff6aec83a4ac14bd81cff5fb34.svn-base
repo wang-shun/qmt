@@ -1,0 +1,4 @@
+mongo.sms.replicaset=10.154.157.33:27017
+mongo.sms.db=qmt_sbc
+mongo.sms.username=
+mongo.sms.password=

@@ -1,0 +1,19 @@
+spring.profiles.active=${spring.profiles.active}
+
+
+#default caller info
+caller.country=${caller.country}
+caller.language=${caller.language}
+
+mms.video.url=${mms.video.url}
+mms.video.url.cn=${mms.video.url.cn}
+mms.video.url.hk=${mms.video.url.hk}
+vrs.video.create.url=${vrs.video.create.url}
+vrs.video.update.url=${vrs.video.update.url}
+vrs.album.create.url=${vrs.album.create.url}
+vrs.album.update.url=${vrs.album.update.url}
+vrs.video.clone.url=${vrs.video.clone.url}
+chat.room.url=${chat.room.url}
+guoguang.cibn.video.review.url=${guoguang.cibn.video.review.url}
+
+search.index.url=${search.index.url}

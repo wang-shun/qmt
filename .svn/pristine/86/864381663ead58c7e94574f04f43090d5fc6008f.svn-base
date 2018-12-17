@@ -1,0 +1,5 @@
+server.contextPath=/qmt/v2/transcode
+server.port=9448
+
+le.cas.redis.host=${le.cas.redis.host}
+le.cas.redis.port=${le.cas.redis.port}

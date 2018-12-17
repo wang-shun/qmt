@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-cms</artifactId>
+    <packaging>pom</packaging>
+    <description>Lesports Quan Mei Ti Content Management System</description>
+
+    <modules>
+        <!--内部管理系统api-->
+        <module>qmt-cms-admin-api-web</module>
+        <module>qmt-cms-admin-web-core</module>
+
+        <!--model包，po包-->
+        <module>qmt-cms-model</module>
+
+        <!--page web -->
+        <module>qmt-cms-page-web</module>
+        <module>qmt-cms-web-core</module>
+        <module>qmt-upload-api-web</module>
+
+        <!--rpc相关-->
+        <module>qmt-cms-rpc-internal-client</module>
+        <module>qmt-cms-rpc-internal-server</module>
+        <module>qmt-cms-rpc-api-client</module>
+        <module>qmt-cms-rpc-api-server</module>
+        <module>qmt-cms-dto</module>
+        <module>qmt-cms-rpc-api</module>
+        <module>qmt-cms-rpc-core</module>
+        <module>qmt-cms-rpc-core-impl</module>
+    </modules>
+
+
+
+
+</project>

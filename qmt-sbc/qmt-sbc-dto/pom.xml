@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.lesports</groupId>
+        <artifactId>lesports-parent</artifactId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.lesports.qmt</groupId>
+    <artifactId>qmt-sbc-dto</artifactId>
+
+    <profiles>
+        <profile>
+            <properties>
+                <thrift.executable>/usr/local/bin/thrift</thrift.executable>
+                <thrift.outputDirectory>target/generated-sources</thrift.outputDirectory>
+            </properties>
+            <id>pbt</id>
+            <activation>
+                <file>
+                    <exists>${thrift.executable}</exists>
+                </file>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <version>1.7</version>
+                        <executions>
+                            <execution>
+                                <id>setup</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <mkdir dir="${thrift.outputDirectory}"/>
+                                        <delete includeemptydirs="true">
+                                            <fileset dir="src/main/java" includes="**/*"/>
+                                        </delete>
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-sbc-common</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/common/sbc_common.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-video</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-config-dto"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/video.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-topic</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-config-dto"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/topic.thrift"/>
+                                        </exec>
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-resource</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-config-dto"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/resource.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-news</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-config-dto"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/news.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-live</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-config-dto"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/live.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-program-album</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-config-dto"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/program_album.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>generate-album</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-config-dto"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/album.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+
+                            <execution>
+                                <id>generate-episode</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <exec executable="${thrift.executable}">
+                                            <arg value="-v"/>
+                                            <arg value="--gen"/>
+                                            <arg value="java:beans"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/common"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-config-dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-sbd-dto"/>
+                                            <arg value="-I"/>
+                                            <arg value="src/main/thrift/qmt-tlive-dto"/>
+                                            <arg value="-o"/>
+                                            <arg value="${thrift.outputDirectory}"/>
+                                            <arg value="src/main/thrift/dto/episode.thrift"/>
+                                        </exec>
+
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>clean</id>
+                                <phase>generate-sources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <copy todir="src/main/java">
+                                            <fileset dir="${thrift.outputDirectory}/gen-javabean" includes="**/*"/>
+                                        </copy>
+                                        <delete dir="${thrift.outputDirectory}/gen-javabean"/>
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.thrift</groupId>
+            <artifactId>libthrift</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports</groupId>
+            <artifactId>api-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-config-dto</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-sbd-dto</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lesports.qmt</groupId>
+            <artifactId>qmt-tlive-dto</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+    </dependencies>
+</project>

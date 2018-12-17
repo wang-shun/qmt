@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.1.xsd">
+
+
+	<bean id="velocityConfigurer" class="com.lesports.qmt.cms.web.velocity.CmsVelocityConfigurer">
+		<property name="resourceLoaderType" value="cmsResourceLoader" />
+		<property name="velocityProperties">
+			<props>
+				<prop key="input.encoding">utf-8</prop>
+				<prop key="output.encoding">utf-8</prop>
+				<!--缓存的大小 -->
+				<prop key="resource.manager.defaultcache.size">100</prop>
+				<prop key="resource.loader">ds</prop>
+				<prop key="ds.resource.loader.class">com.lesports.qmt.cms.web.velocity.CmsResourceLoader</prop>
+				<prop key="ds.resource.loader.cache">false</prop>
+				<!--modificationCheckInterval 重新加载模板的时间间隔，单位是s，0不作重试 -->
+				<prop key="ds.resource.loader.modificationCheckInterval">0</prop>
+				<!--fis相关-->
+				<prop key="userdirective">com.baidu.fis.velocity.directive.Html, com.baidu.fis.velocity.directive.Head, com.baidu.fis.velocity.directive.Body, com.baidu.fis.velocity.directive.Require, com.baidu.fis.velocity.directive.Script, com.baidu.fis.velocity.directive.Style, com.baidu.fis.velocity.directive.Uri, com.baidu.fis.velocity.directive.Widget, com.baidu.fis.velocity.directive.Block, com.baidu.fis.velocity.directive.Extends</prop>
+			</props>
+		</property>
+	</bean>
+	<bean id="velocityViewResolver"
+		class="org.springframework.web.servlet.view.velocity.VelocityViewResolver"
+		lazy-init="true">
+		<property name="cache" value="false" />
+		<property name="attributesMap">
+			<map>
+				<entry key="alternator"><bean class="org.apache.velocity.tools.generic.AlternatorTool" /></entry>
+				<entry key="class"><bean class="org.apache.velocity.tools.generic.ClassTool" /></entry>
+				<entry key="context"><bean class="org.apache.velocity.tools.generic.ContextTool" /></entry>
+				<entry key="convert"><bean class="org.apache.velocity.tools.generic.ConversionTool" /></entry>
+				<entry key="date"><bean class="org.apache.velocity.tools.generic.DateTool" /></entry>
+				<entry key="display"><bean class="org.apache.velocity.tools.generic.DisplayTool" /></entry>
+				<entry key="esc"><bean class="org.apache.velocity.tools.generic.EscapeTool" /></entry>
+				<entry key="field"><bean class="org.apache.velocity.tools.generic.FieldTool" /></entry>
+				<entry key="link"><bean class="org.apache.velocity.tools.generic.LinkTool" /></entry>
+				<entry key="loop"><bean class="org.apache.velocity.tools.generic.LoopTool" /></entry>
+				<entry key="mark"><bean class="org.apache.velocity.tools.generic.MarkupTool" /></entry>
+				<entry key="math"><bean class="org.apache.velocity.tools.generic.MathTool" /></entry>
+				<entry key="number"><bean class="org.apache.velocity.tools.generic.NumberTool" /></entry>
+				<entry key="render"><bean class="org.apache.velocity.tools.generic.RenderTool" /></entry>
+				<entry key="text"><bean class="org.apache.velocity.tools.generic.ResourceTool" /></entry>
+				<entry key="sorter"><bean class="org.apache.velocity.tools.generic.SortTool" /></entry>
+				<entry key="parser"><bean class="org.apache.velocity.tools.generic.ValueParser" /></entry>
+				<entry key="xml"><bean class="org.apache.velocity.tools.generic.XmlTool" /></entry>
+				<entry key="LeNumberUtils"><bean class="com.lesports.utils.math.LeNumberUtils" /></entry>
+				<!--其他你觉得有用的 velocity tools-->
+				<entry key="jello"><bean class="com.baidu.fis.velocity.tools.JelloTool" /> </entry>
+			</map>
+		</property>
+		<!--<property name="toolboxConfigLocation" >-->
+		    <!--<value>/WEB-INF/velocity-toolbox.xml</value>-->
+		<!--</property>  -->
+		<property name="contentType" value="text/html;charset=utf-8" />
+	</bean>
+
+
+</beans>

@@ -1,0 +1,8 @@
+server.contextPath=/cms/api/v2
+server.port=9767
+
+# File size limit
+multipart.maxFileSize = 3Mb
+
+# Total request size for a multipart/form-data
+multipart.maxRequestSize = 20Mb

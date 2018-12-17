@@ -1,0 +1,18 @@
+{
+    "match": $jello.jsonEncode($match),
+    "status": $jello.jsonEncode($status),
+    "episode": $jello.jsonEncode($episode),
+    "title": $jello.jsonEncode($title),
+    "keywords": $jello.jsonEncode($keywords),
+    "description": $jello.jsonEncode($description),
+    "tags": $jello.jsonEncode($tags),
+    "vs": $jello.jsonEncode($vs),
+    "matchStatsConfig": $jello.jsonEncode($matchStatsConfig),
+    "teamMapStats": $jello.jsonEncode($teamMapStats),
+    "teamStats": $jello.jsonEncode($teamStats),
+    "playerStats": $jello.jsonEncode($playerStats),
+    "logo":  $jello.jsonEncode($logo),
+　　 "week":  $jello.jsonEncode($week),
+　　 "records":  $jello.jsonEncode($records),
+    "standards":  $jello.jsonEncode($standards)
+}

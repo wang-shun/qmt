@@ -1,0 +1,4 @@
+jvm.args=-Xms2048m -Xmx2048m -Xmn800m -XX\:MaxPermSize\=300m -XX\:PermSize\=128m
+
+has.competitor.stats.cids=50001
+

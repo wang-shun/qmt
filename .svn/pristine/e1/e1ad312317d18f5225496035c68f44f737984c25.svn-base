@@ -1,0 +1,17 @@
+jvm.args=-Xms256m -Xmx1024m -Xmn128m -XX\:MaxMetaspaceSize\=300m -XX\:MetaspaceSize\=128m -XX:MaxDirectMemorySize=1024m \
+        -XX:+UseG1GC -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=40 -XX:MaxGCPauseMillis=200 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005
+
+spring.profiles.active=prod
+
+mongo.transcode.replicaset=10.154.28.195:9102,10.154.28.195:9103
+mongo.transcode.replicaset.tag.name=location
+mongo.transcode.replicaset.tag.value=Beijing
+mongo.transcode.db=qmt_transcode_staging
+mongo.transcode.username=lesports
+mongo.transcode.password=lesports
+
+swiftq.connection.url=amqp://admin:anonymous@/?brokerlist='tcp://10.11.144.233:5672?retries='2'&connectDelay='5000''&sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''
+swiftq.exchange.name=lesports.qmt.msg.cn_staging.direct
+swiftq.routingkey.name=lesports.routingkey.qmt.msg.cn_staging
+
+search.index.url=http://s.qmt.lesports.com/search/v2/i/qmt/{0}/{1}?caller=1007

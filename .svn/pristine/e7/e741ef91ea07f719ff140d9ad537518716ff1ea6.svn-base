@@ -1,0 +1,11 @@
+#mongo.sbc.replicaset=10.150.130.24:9102,10.150.130.27:9102
+#mongo.sbc.db=sms
+#mongo.sbc.username=lesports
+#mongo.sbc.password=lesports
+
+mongo.config.replicaset=10.154.157.33:27017
+#mongo.config.replicaset.tag.name=location
+#mongo.config.replicaset.tag.value=Beijing
+mongo.config.db=config_test1
+mongo.config.username=
+mongo.config.password=

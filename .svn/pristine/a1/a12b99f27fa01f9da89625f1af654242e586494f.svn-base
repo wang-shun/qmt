@@ -1,0 +1,17 @@
+jvm.args=-Xms256m -Xmx1024m -Xmn128m -XX\:MaxMetaspaceSize\=300m -XX\:MetaspaceSize\=128m -XX:MaxDirectMemorySize=1024m \
+        -XX:+UseG1GC -XX:G1HeapRegionSize=4m -XX:InitiatingHeapOccupancyPercent=40 -XX:MaxGCPauseMillis=200
+
+spring.profiles.active=prod
+
+caller.country=CN
+caller.language=ZH_CN
+
+mongo.config.replicaset=10.154.28.195:9102,10.154.28.195:9103
+mongo.config.replicaset.tag.name=location
+mongo.config.replicaset.tag.value=Beijing
+mongo.config.db=qmt_config_staging
+mongo.config.username=lesports
+mongo.config.password=lesports
+
+## letv live team rpc server
+hessian.server=10.176.127.25:8080

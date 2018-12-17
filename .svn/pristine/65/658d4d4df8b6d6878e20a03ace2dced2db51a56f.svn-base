@@ -1,0 +1,24 @@
+jvm.args=-Xms2048m -Xmx2048m -Xmn800m -XX\:MaxMetaspaceSize\=300m -XX\:MetaspaceSize\=128m -XX:MaxDirectMemorySize=1024m
+
+spring.profiles.active=prod
+
+caller.country=HK
+caller.language=ZH_HK
+
+mongo.sms.replicaset=10.154.28.195:9102,10.125.89.145:9102,10.154.28.195:9103
+mongo.sms.replicaset.tag.name=location
+mongo.sms.replicaset.tag.value=Beijing
+mongo.sms.db=sms_intra
+mongo.sms.username=lesports
+mongo.sms.password=lesports
+
+play.url.match=http://sports.letv.com/match/%s.html
+play.url.live=http://sports.letv.com/live/%s.html
+play.url.video=http://sports.letv.com/video/%s.html
+tlive.url.match=http://sports.letv.com/match/%s/tlive.html
+
+swiftq.exchange.name=lesports.sms.direct
+swiftq.routingkey.name=lesports.sms.sync.data.hk
+swiftq.connection.url=amqp://lesports:lesportslesports@/?\
+                        brokerlist='tcp://117.121.54.214:8018?retries='2'&connectdelay='5000';tcp://10.106.54.179:8018?retries='2'&connectdelay='5000';tcp://10.106.54.182:8018?retries='2'&connectdelay='5000';tcp://10.106.54.183:8018?retries='2'&connectdelay='5000';'\
+                        &sync_publish='all'&sync_ack='true'&failover='roundrobin?cyclecount='30''

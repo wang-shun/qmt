@@ -1,0 +1,8 @@
+le.upload.root.dir=${le.upload.root.dir}
+
+spring.profiles.active=${spring.profiles.active}
+
+#default caller info
+caller.country=${caller.country}
+caller.language=${caller.language}
+

@@ -1,0 +1,19 @@
+<div class="w2" data-idf="$w2.idf">
+    #set($wHeader = $w2.header)
+	#parse("/widget/wheader/wheader.vm")
+
+	<div class="content">
+		<h2>$w2.content</h2>
+	</div>
+
+	 #set($wFooter = $w2.footer)
+	 #parse("/widget/wfooter/wfooter.vm")
+</div>
+
+
+<script>
+	window.jsVar = window.jsVar || {};
+	window.jsVar.w2 = {
+		var1:'this is w2 var-1'
+	}
+</script>

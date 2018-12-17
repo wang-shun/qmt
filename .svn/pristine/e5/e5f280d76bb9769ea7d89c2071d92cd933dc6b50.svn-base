@@ -1,0 +1,29 @@
+jvm.args=-Xms256m -Xmx256m -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5006
+
+video.upload.init.url=http://115.182.63.146/api/uploadinit
+video.upload.resume.url=http://115.182.63.146/api/uploadresume?token=%s
+video.transcode.url=http://115.182.63.146/api/uploadTransArgs
+video.transcode.addrate.url=http://115.182.63.146/api/addRate?mid=%s&vtype=%s
+video.download.url=http://10.180.92.51/api/getDownloadUrl?token=%s
+video.encapsulation.url=http://115.182.63.146/api/portal
+
+vrs.video.create.url=http://10.204.28.86/mms/inner/video/create?sourceId=200036&platform=upload&category=4&videoType={videoType}&pid={pid}\
+  &description={description}&tag={tag}&disableType={disableType}&controlAreas={controlAreas}\
+  &playPlatform={playPlatform}&downPlatform={downPlatform}&token={token}&nameCn={nameCn}\
+  &drmFlag={drmFlag}&coprightSite={coprightSite}&site={site}
+live.recording.app.key=ba1a79d3c747dc5826bd5f1a4e0d98e2
+live.recording.secret.key=8076bb3622ab1b23e501d5a2e09eed08
+live.recording.create.url=http://115.182.63.146:29220/api/liverecord/push?bizId=L|2|1|1&appkey=%s&timestamp=%s&auth=%s
+
+transcode.secret.key=504d80e8e4b071811bf7c7af504d
+transcode.app.key=712e1b7f630e8954375105bf
+
+le.cas.redis.host=10.154.157.33
+le.cas.redis.port=25017
+
+le.cas.url.prefix=http://10.185.30.239:8881
+le.cas.username=lesports
+le.cas.password=lesports
+le.cas.sec.code=a46a1a90-5e89-11df-8e19-001a6b4b5640
+le.cas.login.url=http://10.185.30.239:8881/sso/login/
+login.success.redirect.url=http://t.qmt.lesports.com

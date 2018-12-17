@@ -1,0 +1,7 @@
+hedwig.env=${environment.type}
+hedwig.zk.group=${environment.group}
+hedwig.rpc.read.timeout=30
+
+#hedwig.env=test
+#hedwig.zk.group=cn
+#hedwig.rpc.read.timeout=30

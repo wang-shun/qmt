@@ -1,0 +1,10 @@
+server.port=9615
+
+
+spring.mail.host=smtp.letv.cn
+spring.mail.username=noreply_lesports@le.com
+spring.mail.password=@!m07292016
+spring.mail.properties.mail.smtp.auth: true
+
+hedwig.env=@environment.type@
+hedwig.zk.group=@environment.group@

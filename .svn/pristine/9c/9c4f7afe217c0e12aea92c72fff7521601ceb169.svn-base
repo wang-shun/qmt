@@ -1,0 +1,58 @@
+live.contain.1080p=true
+vod.contain.1080p=true
+player.pk.hot.44001 = 120278007|120176007|120413007|120200007|120145007|120458007|120312007|120466007|120448007|120215007|120288007|120315007
+
+caller.language=${caller.language}
+caller.country=${caller.country}
+
+live.channels.url=${live.channels.url}
+playbill.current.url=${playbill.current.url}
+stream.url=${stream.url}
+playbill.whole.day.url=${playbill.whole.day.url}
+
+subject.info.url=${subject.info.url}
+subject.info.tjPackages.url=${subject.info.tjPackages.url}
+
+subject.list.url=${subject.list.url}
+
+search.live.url=${search.live.url}
+search.subject.url=${search.subject.url}
+search.videos.url=${search.videos.url}
+search.sport.news.url=${search.sport.news.url}
+search.albums.url=${search.albums.url}
+search.stars.url=${search.stars.url
+search.suggest.url=${search.suggest.url}
+
+post.info.url=${post.info.url}
+
+search.subject.topic.url=${search.subject.topic.url}
+
+lesports.recommend.tag.id=${lesports.recommend.tag.id}
+
+##热门比赛资源位ID
+lesports.recommend.match.resourceid=${lesports.recommend.match.resourceid}
+
+##热门轮播图资源位ID
+lesports.recommend.carousel.resourceid=${lesports.recommend.carousel.resourceid}
+
+lesports.all.period.recommend.match.resourceid=${lesports.all.period.recommend.match.resourceid}
+
+hk.living.episodes.sort.menuid=${hk.living.episodes.sort.menuid}
+
+le.zhangyu.info.url=${le.zhangyu.info.url}
+
+## has competitor_stats cIds
+has.competitor.stats.cids = ${has.competitor.stats.cids}
+
+## ------------ 资源位ID ----------------
+##推广位
+app.promotion.rescontentid = ${app.promotion.rescontentid}
+##开机图
+app.startup.logo.rescontentid = ${app.startup.logo.rescontentid}
+
+## ------------ recommend 板块ID ----------------
+##原2878板块ID
+app.focusid.2878 = ${app.focusid.2878}
+##热门的推广位ID
+app.recommend.id = ${app.recommend.id}
+

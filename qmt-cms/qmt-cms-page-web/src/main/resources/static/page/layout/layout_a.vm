@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>$title #if($titleAffix) - $titleAffix#end</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/public/project_a/static/favicon.ico" />
+
+        <link rel="stylesheet" href="http://combo.static.lesports.com:9000/comb??/static/scss/normalize.css,/static/scss/global.css">
+        #block("headCss") #end
+
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="bk_header">
+                #block("bk_header") #end
+            </div>
+
+            <div id="bk_a">
+                #block("bk_a") #end
+            </div>
+
+            <div id="bk_footer">
+                #block("bk_footer") #end
+            </div>
+        </div>
+
+        
+
+        <script src="http://combo.static.lesports.com:9000/comb??/static/js/mod-amd.js,/static/components/jquery/jquery.js,/static/libs/common.js"></script>
+        <script>
+            require(['static/libs/common']);
+        </script>
+
+        #block("footerScript") #end
+
+    </body>
+
+
+</html>
+
+
